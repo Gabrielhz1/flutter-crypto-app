@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import './pages/Moedas_Page.dart';
+import 'package:projeto_perguntas/pages/home_page.dart';
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.indigo
         ),
 
-        home: MoedasPage(),
+        home: HomePage(),
     );
   }
 }
